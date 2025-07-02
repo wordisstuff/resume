@@ -1,0 +1,10 @@
+.header{
+    display: inline-flex;
+    padding: 4px 14px;
+    align-items: center;
+    gap: 8px;
+    
+    border-radius: 26px;
+    background: rgb(251, 226, 226);
+    color: #606060;
+}
