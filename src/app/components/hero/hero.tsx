@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import ScatterText from '../scatterText';
 
 export default function HeroSection() {
     const { t } = useTranslation();
@@ -21,11 +22,11 @@ export default function HeroSection() {
                 transition={{ duration: 1 }}
             >
                 <h1 className="text-3xl sm:text-5xl font-bold leading-tight mb-6">
-                    {t('welcome.title')}
+                    <ScatterText text={t('welcome.title')} type="letter" />
                     <br className="hidden sm:block" />
-                    {t('welcome.title2')}
+                    <ScatterText text={t('welcome.title2')} type="word" />
                     <br className="hidden sm:block" />
-                    {t('welcome.title3')}
+                    <ScatterText text={t('welcome.title3')} type="letter" />
                 </h1>
 
                 <Link

@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import './i18n/config.js';
 import HeroSection from './components/hero/hero';
 import { MotionList } from './components/motionList';
+import ScatterText from './components/scatterText';
 
 // import { headers } from 'next/headers';
 
@@ -15,6 +16,10 @@ export default function Home() {
             <header className="container">
                 <Header>{t('header.menu')}</Header>
             </header>
+            <ScatterText
+                text="WebBarrel — рішення для вашого бізнесу"
+                type="letter"
+            />
             <MotionList>
                 <div className="p-6 bg-white dark:bg-gray-800 rounded shadow">
                     Сервіс 1
