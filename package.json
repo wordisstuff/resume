@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^10.1.5",
+    "framer-motion": "^12.23.6",
     "i18next": "^25.3.2",
     "next": "15.3.4",
     "next-i18next": "^15.4.2",

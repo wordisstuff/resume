@@ -1,3 +1,5 @@
 {
-    "header":{"menu":"menu"}
+    "header":{"menu":"menu","about":"About me","projects":"Projects","contacts":"Contacts"},
+    "welcome":{"title":"Welcome to WebBarrel!","title2":"We create custom web solutions,","title3":"that make your business simpler and more effective."},
+    "contact":{"contactUs":"Contact us"}
 }
