@@ -6,7 +6,7 @@ export default function ThemeToggleButton() {
     return (
         <button
             onClick={toggleTheme}
-            className="text-xl px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+            className="text-xl px-2 py-1 rounded hover:bg-bluegren dark:hover:bg-babyblue transition"
         >
             {theme === 'light' ? '🌙' : '☀️'}
         </button>

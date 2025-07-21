@@ -5,6 +5,7 @@ import './i18n/config.js';
 import HeroSection from './components/hero/hero';
 import { MotionList } from './components/motionList';
 import ScatterText from './components/scatterText';
+import AnimatedHeader from './components/AnimatedHeader';
 
 // import { headers } from 'next/headers';
 
@@ -13,6 +14,7 @@ export default function Home() {
     console.log(t('header.menu'));
     return (
         <div className="container mx-auto grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-12 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+            <AnimatedHeader> </AnimatedHeader>
             <header className="container">
                 <Header>{t('header.menu')}</Header>
             </header>
