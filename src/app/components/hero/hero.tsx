@@ -22,18 +22,18 @@ export default function HeroSection() {
                 transition={{ duration: 1 }}
             >
                 <h1 className="text-3xl sm:text-5xl font-bold leading-tight mb-6">
-                    <ScatterText text={t('welcome.title')} type="letter" />
-                    <br className="hidden sm:block" />
-                    <ScatterText text={t('welcome.title2')} type="word" />
-                    <br className="hidden sm:block" />
-                    <ScatterText text={t('welcome.title3')} type="letter" />
+                    <ScatterText text={t('welcome.title')} />
+                    {/* <br className="hidden sm:block" /> */}
+                    <ScatterText text={t('welcome.title2')} />
+                    {/* <br className="hidden sm:block" /> */}
+                    <ScatterText text={t('welcome.title3')} />
                 </h1>
 
                 <Link
                     href="/contact"
                     className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg transition"
                 >
-                    {t('contact.contactUs')}
+                    <ScatterText text={t('contact.contactUs')} />
                 </Link>
             </motion.div>
         </section>
