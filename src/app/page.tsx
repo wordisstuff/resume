@@ -6,6 +6,7 @@ import HeroSection from './components/hero/hero';
 import { MotionList } from './components/motionList';
 import ScatterText from './components/scatterText';
 import AnimatedHeader from './components/AnimatedHeader';
+import CookieBanner from './components/CookieBanner';
 
 // import { headers } from 'next/headers';
 
@@ -39,6 +40,7 @@ export default function Home() {
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
                 <h2>FOOTER</h2>
             </footer>
+            <CookieBanner/>
         </div>
     );
 }
