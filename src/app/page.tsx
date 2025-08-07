@@ -14,10 +14,10 @@ export default function Home() {
     const { t } = useTranslation();
     console.log(t('header.menu'));
     return (
-        <div className="container mx-auto grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-12 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <AnimatedHeader> </AnimatedHeader>
+        <div className="container mx-auto grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-7 sm:p-20 font-[family-name:var(--font-geist-sans)]">
             <header className="container">
-                <Header>{t('header.menu')}</Header>
+            <AnimatedHeader> </AnimatedHeader>
+                {/* <Header>{t('header.menu')}</Header> */}
             </header>
             <ScatterText
                 text="WebBarrel — рішення для вашого бізнесу"
@@ -34,7 +34,7 @@ export default function Home() {
                     Сервіс 3
                 </div>
             </MotionList>
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start rounded">
+            <main className="container flex flex-col gap-[32px] row-start-2 items-center sm:items-start rounded">
                 <HeroSection />
             </main>
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
